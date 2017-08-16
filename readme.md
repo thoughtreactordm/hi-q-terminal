@@ -45,7 +45,7 @@ Please set up the config as follows:
  - `<oauth_code>`: This is **NOT** your bot account password; to obtain your unique OAuth code, visit https://twitchapps.com/tmi and click 'Connect with Twitch'; this will prompt you to authorize the connection with your currently signed in Twitch account - *make sure you are signed in/sign into the BOT ACCOUNT and not your channel account*
  - `<channel_name>`: This is the name of your channel with no capitalization; i.e. as it would appear in your channel URL
  - `"salutations"`: This is an array of strings containing any and all salutations you want the app to test against; these items are **NOT** case sensitive; if you do not include atleast one salutation any mention will add that chatter to the queue
- - `<broadcaster_username>`: This is **YOUR** username; this is the username that will be tested for mentions so only salutations at you are logged in the queue
+ - `<broadcaster_username>`: This is **YOUR** username; this is the username that will be tested for mentions, so only salutations at you are logged in the queue
 
 ## Running Hi-Q
 
@@ -71,7 +71,7 @@ Just let the app run and move the terminal to your non-primary monitor. When som
 Be sure to say 'Hi!' back!
 
 ### Dependencies
-Hi-Q (Terminal Version) is made possible by and requires the use two primary dependency packages:
+Hi-Q (Terminal Version) is made possible by and requires the use of two primary dependency packages:
  - [TMI.js](https://www.npmjs.com/package/tmi.js/) - a powerful JavaScript library for connecting to the Twitch API and IRC channels
  - [Colors](https://www.npmjs.com/package/colors) - a small package for leveraging terminal colors in console logs
 
