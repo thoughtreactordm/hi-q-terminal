@@ -1,0 +1,16 @@
+{
+	"options": {
+		"debug": false
+	},
+	"connection": {
+		"cluster": "aws",
+		"reconnect": true
+	},
+	"identity": {
+		"username": "<bot_username>",
+		"password": "<oauth_code>"
+	},
+	"channels": ["<channel_name>"],
+	"salutations": ["hey", "hi", "hello"],
+	"mentions": "<broadcaster_username>"
+}

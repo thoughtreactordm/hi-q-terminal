@@ -1,0 +1,15 @@
+{
+  "name": "hiq-terminal",
+  "version": "0.0.1",
+  "description": "Twitch app/bot that builds a queue of chatter salutations",
+  "main": "app.js",
+  "scripts": {
+    "hiq": "node app.js"
+  },
+  "author": "Michael DeLally",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "tmi.js": "^1.2.1"
+  }
+}
